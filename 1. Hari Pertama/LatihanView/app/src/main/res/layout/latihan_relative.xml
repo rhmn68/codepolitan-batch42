@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor 1"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nomor_2"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="20sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/tvNomor3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor 3"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor 4"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor 5"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor 6"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor 7"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="20sp"
+        android:layout_centerVertical="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor 8"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="20sp"
+        android:layout_below="@id/tvNomor3"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

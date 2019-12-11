@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Latihan Recyclerview</string>
+
+    <string-array name="data_title_movie">
+        <item>A Star</item>
+        <item>Aquaman</item>
+        <item>Avenger Infinity</item>
+        <item>Birdbox</item>
+        <item>Bohemian</item>
+    </string-array>
+
+    <string-array name="data_desc_movie">
+        <item>Lorem ipsum sit amet dolor , consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, , consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</item>
+        <item>Lorem ipsum sit amet dolor , consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, , consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</item>
+        <item>Lorem ipsum sit amet dolor , consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, , consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</item>
+        <item>Lorem ipsum sit amet dolor , consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, , consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</item>
+        <item>Lorem ipsum sit amet dolor , consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, , consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</item>
+    </string-array>
+
+    <array name="data_image_movie">
+        <item>@drawable/poster_a_star</item>
+        <item>@drawable/poster_aquaman</item>
+        <item>@drawable/poster_avengerinfinity</item>
+        <item>@drawable/poster_birdbox</item>
+        <item>@drawable/poster_bohemian</item>
+    </array>
+</resources>
