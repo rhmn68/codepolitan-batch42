@@ -11,14 +11,14 @@ class TvAdapter(private val movies: List<ResultsItem>, private val listener: (Re
     :RecyclerView.Adapter<TvAdapter.TvHolder>(){
 
     class TvHolder(view: View): RecyclerView.ViewHolder(view){
-        fun bindItem(movie: ResultsItem, listener: (ResultsItem) -> Unit){
-            itemView.tvTitleTv.text = movie.name
+        fun bindItem(tv: ResultsItem, listener: (ResultsItem) -> Unit){
+            itemView.tvTitleTv.text = tv.name
 
             val baseUrlImage = "https://image.tmdb.org/t/p/w300"
-            val urlImage = baseUrlImage + movie.backdropPath
+            val urlImage = baseUrlImage + tv.backdropPath
             Glide.with(itemView).load(urlImage).into(itemView.ivTv)
 
-            val rating = movie.voteAverage?.div(2)
+            val rating = tv.voteAverage?.div(2)
             if (rating != null) {
                 itemView.ratingTv.rating = rating.toFloat()
             }
@@ -26,7 +26,7 @@ class TvAdapter(private val movies: List<ResultsItem>, private val listener: (Re
             itemView.tvRatingTv.text = rating.toString()
 
             itemView.setOnClickListener {
-                listener(movie)
+                listener(tv)
             }
         }
     }
